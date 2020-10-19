@@ -8,16 +8,13 @@ setInterval( () => {
    let minutes = date.getMinutes();
    let seconds = date.getSeconds();
    let day_night = "PM";
-   let hr = "0" + hours;
+   let hr = hours;
    let mi = "0" + minutes;
    let se = "0" + seconds;
 
    if(hours > 12) {
      day_night = "PM";
-   } else{
-     day_night = "AM";
    }
-
    if(hours > 12){
      hours = hours - 12;
    }
@@ -30,7 +27,7 @@ setInterval( () => {
    if(seconds < 10){
      seconds = se;
    }
-   time.textContent = `${hours} : ${minutes} : ${seconds}  AM`;
+   time.textContent = `${hours} : ${minutes} : ${seconds} ${day_night}`;
 } );
 
   const quotes = [
