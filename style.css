@@ -1,0 +1,42 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+	background:palevioletred;
+}
+.my-time{
+	border: 1px rebeccapurple solid;
+	margin: 5px 0px 0 5px;
+	width: 30%;
+	padding:10px;
+	text-align: center;
+	font-size: 30px;
+	color:#fff;
+	font-weight: bolder;
+	background-color: rgb(111, 139, 46);
+}
+.card{
+background:rebeccapurple;
+position:absolute;
+top:35%;
+left:20%;
+padding:50px;
+width:50%;
+border-radius: 9px;
+box-shadow: 0 4px 8px 0
+rgba(0, 0, 0, 0.2);
+}
+.quote{
+	font-weight: bolder;
+	font-size: large;
+}
+button{
+	margin-top:10px;
+	padding:7px;
+	border-radius:12px;
+	border: 2px rgb(204, 0, 255) solid;
+	font-size:15px;
+	margin-left:80%;
+}
